@@ -41,6 +41,7 @@ public class Sample {
 
 	@AfterTest
 	public void afterTest() {
+		//quits the driver
 		driver.quit();
 	}
 
