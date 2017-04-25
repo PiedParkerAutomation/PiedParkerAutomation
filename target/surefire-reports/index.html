@@ -101,7 +101,7 @@
                     <div class="method-list-content passed suite-SampleSuite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SampleSuite" title="com.test.Sample" hash-for-method="f">f</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-SampleSuite" title="com.test.Sample" hash-for-method="sampleTest">sampleTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-SampleSuite -->
@@ -124,9 +124,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="f">
-                  </a> <!-- f -->
-                  <span class="method-name">f</span>
+                  <a name="sampleTest">
+                  </a> <!-- sampleTest -->
+                  <span class="method-name">sampleTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -185,14 +185,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'f')
+data.setCell(0, 1, 'sampleTest')
 data.setCell(0, 2, 'com.test.Sample')
-data.setCell(0, 3, 1);
+data.setCell(0, 3, 5342);
 window.suiteTableData['SampleSuite']= { tableData: data, tableDiv: 'times-div-SampleSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 ms</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-SampleSuite">
               </div> <!-- times-div-SampleSuite -->
             </div> <!-- times-div -->
@@ -224,12 +224,12 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">f</span>
-                <span class="method-start">11 ms</span>
+                <span class="method-name">sampleTest</span>
+                <span class="method-start">18548 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">13 ms</span>
+                <span class="method-start">23891 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
