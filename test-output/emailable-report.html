@@ -31,14 +31,50 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">SampleTest</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">74.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">96.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">SampleTest &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">com.test.Sample</td><td><a href="#m1"><b>sampleTest</b>  </a></td><td class="numi">1</td><td>1493155924963</td><td class="numi">2632</td></tr>
+<tr><th colspan="4">Default test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.test.Sample</td><td><a href="#m1"><b>sampleTest</b>  </a></td><td class="numi">1</td><td>1494706173918</td><td class="numi">33148</td></tr>
 </table>
-<h1>SampleTest</h1>
+<h1>Default test</h1>
 <h2 id="m1">com.test.Sample:sampleTest</h2>
+<div style="padding-left:3em">
+<p>An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 33.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Renukas-MacBook.local&apos;, ip: &apos;10.0.0.118&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/rmadhave/Documents/PiedParker/PiedParkerAutomation/src/test/resources/iPiedParker.app, networkConnectionEnabled=false, databaseEnabled=false, deviceName=iPhone 6s, platform=MAC, platformVersion=10.3, webStorageEnabled=false, locationContextEnabled=false, automationName=XCUITest, browserName=, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, udid=B2A8F70E-4CAC-4757-852B-29558EFF1191}]
+Session ID: 25af707c-c159-4529-88b8-f687f38b40e5
+*** Element info: {Using=name, value=E-mail}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+<br/>at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+<br/>at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+<br/>at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+<br/>at io.appium.java_client.DefaultGenericMobileDriver.findElementByName(DefaultGenericMobileDriver.java:104)
+<br/>at io.appium.java_client.AppiumDriver.findElementByName(AppiumDriver.java:1)
+<br/>at io.appium.java_client.ios.IOSDriver.findElementByName(IOSDriver.java:1)
+<br/>at org.openqa.selenium.By$ByName.findElement(By.java:299)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+<br/>at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+<br/>at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+<br/>at com.test.Sample.sampleTest(Sample.java:32)
+<br/>25 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
